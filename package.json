@@ -1,0 +1,27 @@
+{
+  "name": "unprocessable-entity-mw",
+  "version": "0.0.1",
+  "description": "Express middleware that handles the unprocessable entity responses based on Swagger Express middleware input.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamc/unprocessable-entity-mw.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "JAM <jacjam@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamc/unprocessable-entity-mw/issues"
+  },
+  "homepage": "https://github.com/jamc/unprocessable-entity-mw#readme",
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5",
+    "sinon": "~1.15.4"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0"
+  }
+}
